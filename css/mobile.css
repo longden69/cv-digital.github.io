@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+    #banner {
+        background-image: url('../images/banner-mobile.jpg');
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*------------NAV----------*/
+    .topnav a {
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 55px;
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        font-size: 17px;
+        color: #000;
+        border-left: none;
+        height: 30px !important;
+    }
+    .topnav a:nth-child(3) {
+        display: none;
+    }
+    /*----------------PROJECT------------*/
+    #project .box-projects .project-campain .p-c-year {
+        width: 100%;
+        padding-left: 15px;
+    }
+    #project .box-projects .project-campain .p-c-detail {
+        width: 100%;
+        flex-direction: column;
+    }
+}

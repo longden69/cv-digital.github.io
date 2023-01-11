@@ -1,0 +1,61 @@
+body {
+    background-color: #cff4fc;
+}
+
+.wraper {
+    padding-top: 30px;
+}
+
+.card-title {
+    color:blue;
+}
+
+.card {
+    padding: 15px;
+    padding-bottom: 40px;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.card .card-body {
+    border-bottom: 1px solid #ccc;
+}
+
+.card .card-body:last-child {
+    border-bottom: none;
+}
+
+.card li {
+    border: none;
+}
+
+/*--------------GOALS-------------*/
+.goals .box-icon {
+    padding-top: 15px;
+}
+.ic-goal {
+    font-size: 30px;
+}
+
+.goals li{
+    border-bottom: 1px solid #E1ECEF;
+}
+
+/*--------------TEAM---------*/
+.team .box-icon {
+    padding-top: 5px;
+}
+/*---------TIMELINE------------*/
+.timeline .counter {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.4em;
+    line-height: 40px;
+}
+
+.timeline .t-detail {
+    border-bottom: 1px dotted #66c4ca;
+}

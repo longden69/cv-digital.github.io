@@ -1,0 +1,65 @@
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+    .topnav {
+        padding: 0;
+    }
+    .box-tablet {
+        display: block;
+    }
+    .box-laptop {
+        display: none;
+    }
+    .topnav a {
+        float: left;
+        text-align: center;
+        padding-top: 20px;
+        width: 22%;
+        text-decoration: none;
+        font-size: 15px;
+        color: #000;
+        border-left: 1px solid #ccc;
+        height: 30px !important;
+    }
+    .topnav a:nth-child(3) {
+        padding-top: 0;
+        border-left: 1px solid #ccc;
+        width: 12%;
+        padding-bottom: 75px;
+    }
+    .topnav a:nth-child(3) h2, .topnav a:nth-child(3) span{
+        display: none;
+    }
+    /*-------------ABOUT-----------------*/
+    #about #personal-info {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10%;
+        background-color: #f0f0f0;
+    }
+    #about #form-email {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10%;
+        background-color: #f0f0f0;
+    }
+    /*-------------job-info------------*/
+    /*----------------PROJECT------------*/
+    #project .box-projects .project-campain .p-c-year {
+        width: 30%;
+        float: left;
+    }
+    #project .box-projects .project-campain .p-c-detail {
+        width: 70%;
+        flex-direction: column;
+    }
+
+    #project .box-projects .project-campain .p-c-detail .p-c-detail-item {
+        padding-left: 10px;
+    }
+    /*----------CER----------*/
+    .box-cert .box-item-cert {
+        border-left: none !important;
+    }
+}
